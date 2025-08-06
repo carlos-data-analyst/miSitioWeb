@@ -1,0 +1,178 @@
+body {
+    background-color: white;
+    font-family: Arial;
+}
+
+/* Este es la deocración del menú de bootstrap. Por prioridad de cascada, este se ejecuta antes que la decoración del CSS tradicional. */
+/* Si la implementación de bootstrap deja de existir, se ejecutará la decoración de CSS */
+
+#menuNav{
+    background-color: rgb(179, 176, 176);
+}
+
+#menuNav a{
+    color: aliceblue;
+}
+
+/* Aquí empiezan los estilos del menú tradicional de CSS */
+
+nav{
+    background-color: rgb(179, 176, 176);
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 18px;
+    
+
+}
+
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    background-color: aquamarine;
+}
+
+li{
+    display: inline-block;
+    padding: 14px 16px;
+}
+
+/* Aquí terminan los estilos del menú tradicional de CSS */
+
+h1{
+    color: black;
+}
+
+p{
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+}
+
+.contenedor_index{
+    
+    padding: 25px;
+}
+
+.contenedor_sobreMi{
+    display: flex;
+    padding: 25px;
+}
+
+.foto_perfil{
+    width: 350px;
+}
+
+.contenedor_proyectos{
+    padding: 25px;
+}
+
+.grid_layout{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.caja{
+    border: 1px solid black ;
+    margin: 25px;
+    background-color:lightgreen;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.caja p{
+    text-align: center;
+}
+
+.caja a{
+    margin-bottom: 10px;
+}
+
+.contenedor_experiencia{
+    padding: 25px;
+}
+
+.experiencia_TKM{
+    border: 1px solid black;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+.contacto_TKM{
+    text-align: center;
+    margin: 25px;
+    
+}
+
+.experiencia_curadeuda{
+    border: 1px solid black;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+.contacto_curadeuda{
+    text-align: center;
+    margin: 25px;
+}
+
+.experiencia_kubo{
+    border: 1px solid black;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.contacto_kubo{
+    text-align: center;
+    margin: 25px;
+}
+
+.educacion_continua_y_formal{
+    padding: 25px;
+}
+
+.educacion_continua_y_formal a{
+    text-decoration: none;
+
+}
+
+.educacion_continua{
+    border: 1px solid black ;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+.educacion_formal{
+    border: 1px solid black;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.habilidades{
+    border: 1px solid black;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+
+footer{
+    background-color: blueviolet;
+    text-align: center;
+    
+}
+
+footer p{
+    color: aliceblue;
+    font-size: 24px;
+    text-align: center;
+}
+
+footer img{
+    width: 60px;
+}
+
