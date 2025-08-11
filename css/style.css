@@ -150,6 +150,7 @@ p{
 .educacion_formal{
     border: 1px solid black;
     padding: 25px;
+    margin-bottom: 25px;
     border-radius: 5px;
 }
 
@@ -159,6 +160,17 @@ p{
     border-radius: 5px;
 }
 
+.contenedor_contacto{
+    border: 1px solid black;
+    margin-top: 25px;
+    padding: 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 65vh;
+
+}
 
 footer{
     background-color: blueviolet;
